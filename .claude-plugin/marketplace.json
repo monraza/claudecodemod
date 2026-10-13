@@ -1,0 +1,12 @@
+{
+  "name": "shell-explainer",
+  "description": "Plain-words explanations and risk levels for the shell commands Claude asks to run.",
+  "owner": { "name": "monraza" },
+  "plugins": [
+    {
+      "name": "shell-explainer",
+      "source": "./",
+      "description": "Explains each Bash or PowerShell command above the permission dialog, with a risk level."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "description": "shell-explainer: explains a shell command and rates its risk when Claude Code asks permission to run it",
+  "modules": ["./register.ts"]
+}

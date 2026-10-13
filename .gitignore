@@ -1,0 +1,10 @@
+# Screenshots taken while testing
+Screenshot*.png
+
+# Written by Claude Code when it loads the mod
+.claude-plugin/types/
+
+# Never commit telemetry captures: they hold account details
+*-capture.log
+
+node_modules/

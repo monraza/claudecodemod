@@ -1,0 +1,7 @@
+{
+  "name": "shell-explainer",
+  "version": "0.1.0",
+  "description": "Explains each Bash or PowerShell command Claude asks permission to run: a risk banner above the permission dialog, and /shell-explainer for every one asked this session, how it was answered, and the full breakdown.",
+  "author": { "name": "monraza" },
+  "types": "./types/index.d.ts"
+}
