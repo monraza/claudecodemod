@@ -55,7 +55,7 @@ Commands your allow rules or permission mode approve never open a dialog, so the
 
 Needs Claude Code v2.1.287 or later (mods). In Claude Code:
 ```
-/plugin marketplace add <path or git URL of this folder>
+/plugin marketplace add monraza/claudecodemod
 /plugin install shell-explainer@shell-explainer
 ```
 Then run `/reload-plugins`, or start a new session. `/plugin` lists it as `1 mod active · shell-explainer`.
