@@ -2,6 +2,8 @@
 
 A Claude Code mod that explains every Bash or PowerShell command Claude asks permission to run, with a risk level, so you know what you're approving, and keeps a record of each one.
 
+> **It explains; it doesn't protect.** The rating comes from fixed rules that can miss things or be misled. It never blocks a command or changes a permission decision. Always read the command itself before you approve it, especially a 🟢 or 🔵 one.
+
 When the permission dialog opens for a shell command:
 
 - **Under the command's line**, right above the dialog, one colored line with the risk level and the main reason. It shows only while the dialog waits: once you answer (or auto mode's classifier does), it leaves the transcript, and the pane keeps the record:
@@ -124,3 +126,7 @@ claude --plugin-dir .          # run it, reloading on save
 ```
 
 Tested with Claude Code 2.1.292.
+
+## License
+
+[MIT](LICENSE)
